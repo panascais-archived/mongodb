@@ -7,6 +7,7 @@
   "rules": {
     "arrow-body-style": "off",
     "new-cap": "off",
+    "no-console": "off",
     "no-param-reassign": "off",
     "no-underscore-dangle": ["error", { "allow": ["_id"] }]
   }
