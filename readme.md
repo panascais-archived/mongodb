@@ -54,7 +54,7 @@ db.findOne()
 #### Find a document in the database
 
 ```javascript
-db.find()
+db.findOne()
   .then((result) => {
     console.log(`Document found: ${result}`)
   })
