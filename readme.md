@@ -23,14 +23,15 @@ npm i mongo-db --save
 import mongodb from 'mongo-db';
 
 const cfg = {
-  db:   'database'
+  database: 'database',
+  collection: 'database',
   user: 'database',
-  auth: 'database',
+  password: 'database',
   host: 'mongo.local',
   port: 27017,
 };
-const url = `mongodb://${cfg.user}:${cfg.auth}@${cfg.host}:${cfg.port}/${cfg.db}`
-const db  = new mongodb(url, cgf.db, true)
+const url = `mongodb://${cfg.user}:${cfg.password}@${cfg.host}:${cfg.port}/${cfg.database}`;
+const db  = new mongodb(url, cfg.collection, true);
 ```
 
 ## Documentation:
