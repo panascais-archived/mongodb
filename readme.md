@@ -7,7 +7,7 @@
 [![Downloads](https://img.shields.io/npm/dt/mongo-db.svg?style=flat-square)](https://www.npmjs.com/package/mongo-db)
 [![License](https://img.shields.io/npm/l/mongo-db.svg?style=flat-square)](https://www.npmjs.com/package/mongo-db)
 
-![npm statistics](https://nodei.co/npm/mongo-db.png?downloads=true&downloadRank=true&stars=true)
+[![npm statistics](https://nodei.co/npm/mongo-db.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mongo-db)
 
 Mongo-DB is a [MongoDB](https://www.npmjs.com/package/mongodb) wrapper using ES7 and Promises.
 
