@@ -3,6 +3,10 @@ language: node_js
 services:
   - mongodb
 
+cache:
+  directories:
+    - node_modules
+
 before_script:
   - mongo database --eval 'db.addUser("database", "database");'
 
