@@ -9,7 +9,7 @@
     "url": "https://github.com/minora-oss/mongodb"
   },
   "scripts": {
-    "prepublish": "git pull && npm install && npm run compile",
+    "prepublish": "npm run compile",
     "compile": "babel src -d lib",
     "lint": "./node_modules/.bin/eslint src/**",
     "test": "npm run lint"
