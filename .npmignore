@@ -105,6 +105,7 @@ jspm_packages
 .gitattributes
 .gitignore
 .npmignore
+.travis.yml
 readme.md
 contributing.md
 license.md
