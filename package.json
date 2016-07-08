@@ -12,7 +12,7 @@
     "prepublish": "npm run compile",
     "compile": "babel src -d lib",
     "lint": "./node_modules/.bin/eslint src/**",
-    "test": "npm run lint"
+    "test": "./node_modules/.bin/nyc ./node_modules/.bin/ava"
   },
   "babel": {
     "plugins": [
@@ -25,6 +25,19 @@
       "es2016",
       "stage-3"
     ]
+  },
+  "ava": {
+    "files": [
+      "test/*.js"
+    ],
+    "source": [
+      "src/*.es"
+    ],
+    "failFast": true,
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
   },
   "keywords": [
     "node",
@@ -61,12 +74,14 @@
   "readmeFilename": "readme.md",
   "dependencies": {
     "bluebird": "^3.4.1",
-    "mongodb": "^2.1.18",
+    "mongodb": "^2.1.18"
   },
   "devDependencies": {
     "ava": "^0.15.2",
     "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
     "babel-eslint": "^6.1.0",
+    "babel-loader": "^6.2.4",
     "babel-plugin-transform-bluebird": "^0.1.1",
     "babel-plugin-transform-object-assign": "^6.8.0",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
@@ -76,6 +91,7 @@
     "babel-register": "^6.9.0",
     "eslint": "^3.0.1",
     "eslint-config-airbnb-base": "^4.0.0",
-    "eslint-plugin-import": "^1.10.2"
+    "eslint-plugin-import": "^1.10.2",
+    "nyc": "^6.6.1"
   }
 }
