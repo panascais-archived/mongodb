@@ -62,7 +62,6 @@
   "dependencies": {
     "bluebird": "^3.4.1",
     "mongodb": "^2.1.18",
-    "winston": "^2.2.0"
   },
   "devDependencies": {
     "ava": "^0.15.2",

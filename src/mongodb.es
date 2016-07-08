@@ -6,7 +6,6 @@
  * NPM requirements
  */
 import { MongoClient as client, ObjectID as objectid } from 'mongodb';
-import winston from 'winston';
 
 /**
  * Shared database connection
@@ -56,8 +55,7 @@ export default class {
       database.on('error', this.onError);
       return this.getCollection();
     }).catch(error => {
-      winston.error(error);
-      throw error;
+      throw new Error(error);
     });
   }
 
@@ -69,12 +67,12 @@ export default class {
   }
 
   onClose() {
-    winston.warn('Closing connection!');
+    console.warn('Closing connection!');
     database = null;
   }
 
   onError(error) {
-    winston.error(error);
+    console.error(error);
   }
 
   /**
