@@ -1,0 +1,82 @@
+{
+  "name": "mongo-db",
+  "version": "1.0.0",
+  "homepage": "https://github.com/minora-oss/mongodb",
+  "description": "ES7 / Promise MongoDB Wrapper",
+  "main": "lib/mongodb.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minora-oss/mongodb"
+  },
+  "scripts": {
+    "prepublish": "git pull && npm install && npm run compile",
+    "compile": "babel src -d lib",
+    "lint": "./node_modules/.bin/eslint src/**",
+    "test": "npm run lint"
+  },
+  "babel": {
+    "plugins": [
+      "transform-bluebird",
+      "transform-object-assign",
+      "transform-object-rest-spread"
+    ],
+    "presets": [
+      "es2015",
+      "es2016",
+      "stage-3"
+    ]
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "mongodb",
+    "mongo",
+    "es6",
+    "es7",
+    "promise"
+  ],
+  "author": {
+    "name": "Minora Network",
+    "email": "administrator@minora.io"
+  },
+  "contributors": [
+    {
+      "name": "lenovouser",
+      "email": "lenovouser@minora.io"
+    },
+    {
+      "name": "phenomax",
+      "email": "phenomax@minora.io"
+    },
+    {
+      "name": "yariplus",
+      "email": "yariplus@minora.io"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minora-oss/mongodb/issues",
+    "email": "issues@minora.io"
+  },
+  "readmeFilename": "readme.md",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "mongodb": "^2.1.18",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "babel-cli": "^6.10.1",
+    "babel-eslint": "^6.1.0",
+    "babel-plugin-transform-bluebird": "^0.1.1",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2016": "^6.11.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "babel-register": "^6.9.0",
+    "eslint": "^3.0.1",
+    "eslint-config-airbnb-base": "^4.0.0",
+    "eslint-plugin-import": "^1.10.2"
+  }
+}
