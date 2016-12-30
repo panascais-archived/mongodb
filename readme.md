@@ -120,7 +120,7 @@ const document = [
   }
 ];
 
-db.update(query, document)
+db.update(query, document, options)
   .then(() => {
     console.log('Document updated!')
   })

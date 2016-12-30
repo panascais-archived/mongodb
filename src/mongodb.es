@@ -144,13 +144,14 @@ export default class {
   /**
    * Updates a document in current collection
    * @param {Object} query - the query to find the documents will be affected.
-   * @param {Object} document - the object witha a document replace or instructions to apply
+   * @param {Object} document - the object with a a document replace or instructions to apply
+   * @param {Object} options - options for update.
    * @return {Object} a promise with the operation result.
    */
-  update(query, document) {
+  update(query, document, options) {
     return this.connect().then(collection => {
       this.fixQueryID(query);
-      return collection.update(query, document);
+      return collection.update(query, document, options);
     });
   }
 
