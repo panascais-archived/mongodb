@@ -1,6 +1,6 @@
 {
   "name": "mongo-db",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/panascais/mongodb",
   "description": "ES7 / Promise MongoDB Wrapper",
   "main": "lib/mongodb.js",
