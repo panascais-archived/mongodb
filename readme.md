@@ -1,8 +1,6 @@
-# ![Mongo-DB Logo](https://img.minora.io/banner/git/database.png)
-
-[![Chat](https://img.shields.io/gitter/room/minora-oss/mongodb.svg?style=flat-square)](https://gitter.im/minora-oss/mongodb)
-[![Travis CI](https://img.shields.io/travis/minora-oss/mongodb.svg?style=flat-square)](https://travis-ci.org/minora-oss/mongodb)
-[![Dependencies](https://img.shields.io/david/minora-oss/mongodb.svg?style=flat-square)](https://david-dm.org/minora-oss/mongodb)
+[![Chat](https://img.shields.io/gitter/room/panascais/mongodb.svg?style=flat-square)](https://gitter.im/panascais/mongodb)
+[![Travis CI](https://img.shields.io/travis/panascais/mongodb.svg?style=flat-square)](https://travis-ci.org/panascais/mongodb)
+[![Dependencies](https://img.shields.io/david/panascais/mongodb.svg?style=flat-square)](https://david-dm.org/panascais/mongodb)
 [![Version](https://img.shields.io/npm/v/mongo-db.svg?style=flat-square)](https://www.npmjs.com/package/mongo-db)
 [![Downloads](https://img.shields.io/npm/dt/mongo-db.svg?style=flat-square)](https://www.npmjs.com/package/mongo-db)
 [![License](https://img.shields.io/npm/l/mongo-db.svg?style=flat-square)](https://www.npmjs.com/package/mongo-db)
@@ -203,7 +201,7 @@ db.createIndex(index, options)
 
 ## Contributing:
 
-Interested in contributing to Mongo-DB? Contributions are welcome, and are accepted via pull requests. Please [review these guidelines](https://github.com/minora-oss/mongodb/blob/master/contributing.md) before submitting any pull requests.
+Interested in contributing to Mongo-DB? Contributions are welcome, and are accepted via pull requests. Please [review these guidelines](https://github.com/panascais/mongodb/blob/master/contributing.md) before submitting any pull requests.
 
 ## License:
-Code licensed under [MIT](https://github.com/minora-oss/mongodb/blob/master/license.md), documentation under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+Code licensed under [MIT](https://github.com/panascais/mongodb/blob/master/license.md), documentation under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
