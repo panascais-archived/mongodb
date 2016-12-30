@@ -1,5 +1,7 @@
 # ![Mongo-DB Logo](https://img.minora.io/banner/git/database.png)
 
+[![Join the chat at https://gitter.im/minora-oss/mongodb](https://badges.gitter.im/minora-oss/mongodb.svg)](https://gitter.im/minora-oss/mongodb?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Chat](https://img.shields.io/gitter/room/minora-oss/mongodb.svg?style=flat-square)](https://gitter.im/minora-oss/mongodb)
 [![Travis CI](https://img.shields.io/travis/minora-oss/mongodb.svg?style=flat-square)](https://travis-ci.org/minora-oss/mongodb)
 [![Dependencies](https://img.shields.io/david/minora-oss/mongodb.svg?style=flat-square)](https://david-dm.org/minora-oss/mongodb)
