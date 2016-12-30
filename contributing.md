@@ -1,5 +1,3 @@
-# ![Mongo-DB Logo](https://img.minora.io/banner/git/database.png)
-
 # Contributing to Mongo-DB
 
 Please take a moment to review this document in order to make the contribution

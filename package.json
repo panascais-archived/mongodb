@@ -1,12 +1,12 @@
 {
   "name": "mongo-db",
   "version": "1.0.1",
-  "homepage": "https://github.com/minora-oss/mongodb",
+  "homepage": "https://github.com/panascais/mongodb",
   "description": "ES7 / Promise MongoDB Wrapper",
   "main": "lib/mongodb.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/minora-oss/mongodb"
+    "url": "https://github.com/panascais/mongodb"
   },
   "scripts": {
     "prepublish": "npm run compile",
@@ -49,27 +49,23 @@
     "promise"
   ],
   "author": {
-    "name": "Minora Network",
-    "email": "administrator@minora.io"
+    "name": "Panascais",
+    "email": "hello@panascais.io"
   },
   "contributors": [
     {
       "name": "lenovouser",
-      "email": "lenovouser@minora.io"
-    },
-    {
-      "name": "phenomax",
-      "email": "phenomax@minora.io"
+      "email": "silas@panascais.io"
     },
     {
       "name": "yariplus",
-      "email": "yariplus@minora.io"
+      "email": "tafike@gmail.com"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/minora-oss/mongodb/issues",
-    "email": "issues@minora.io"
+    "url": "https://github.com/panascais/mongodb/issues",
+    "email": "issues@panascais.io"
   },
   "readmeFilename": "readme.md",
   "dependencies": {
