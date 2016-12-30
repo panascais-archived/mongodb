@@ -73,10 +73,10 @@
     "mongodb": "^2.1.18"
   },
   "devDependencies": {
-    "ava": "^0.15.2",
+    "ava": "^0.17.0",
     "babel-cli": "^6.10.1",
     "babel-core": "^6.10.4",
-    "babel-eslint": "^6.1.0",
+    "babel-eslint": "^7.1.1",
     "babel-loader": "^6.2.4",
     "babel-plugin-transform-bluebird": "^0.1.1",
     "babel-plugin-transform-object-assign": "^6.8.0",
@@ -86,8 +86,8 @@
     "babel-preset-stage-3": "^6.11.0",
     "babel-register": "^6.9.0",
     "eslint": "^3.0.1",
-    "eslint-config-airbnb-base": "^4.0.0",
-    "eslint-plugin-import": "^1.10.2",
-    "nyc": "^6.6.1"
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "nyc": "^10.0.0"
   }
 }
